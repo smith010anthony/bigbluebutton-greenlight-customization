@@ -1,0 +1,175 @@
+/* BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+*
+* Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+*
+* This program is free software; you can redistribute it and/or modify it under the
+* terms of the GNU Lesser General Public License as published by the Free Software
+* Foundation; either version 3.0 of the License, or (at your option) any later
+* version.
+*
+* BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+* WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+* PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License along
+* with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+*/
+.responsive-header {
+  font-size: 3.3vw;
+}
+
+.header {
+  background: #02174C;
+}
+
+.landing-section {
+  position: relative;
+  height: 40%;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.feature-stamp .stamp {
+  padding: 1em 1.5em;
+  height: auto;
+}
+
+.or-line div {
+  width: 100%;
+  height: 16px;
+  border-bottom: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+.or-line div span {
+  font-size: 120%;
+  background-color: #ffffff;
+  padding: 0 10px;
+  color: #d3d3d3;
+}
+
+.display-4 {
+  font-weight: normal;
+}
+
+.customBtn, .customBtn-google, .customBtn-twitter, .customBtn-office365, .customBtn-microsoft_windows, .customBtn-ldap, .customBtn-openid_connect {
+  display: block;
+  text-align: center;
+  background: #cccccc;
+  color: #ffffff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  -webkit-transition: background-color .218s,border-color .218s,box-shadow .218s;
+  -webkit-transition: background-color .218s,border-color .218s,-webkit-box-shadow .218s;
+  transition: background-color .218s,border-color .218s,-webkit-box-shadow .218s;
+  transition: background-color .218s,border-color .218s,box-shadow .218s;
+  transition: background-color .218s,border-color .218s,box-shadow .218s,-webkit-box-shadow .218s;
+  white-space: nowrap;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+}
+
+.customBtn:hover, .customBtn-google:hover, .customBtn-twitter:hover, .customBtn-office365:hover, .customBtn-microsoft_windows:hover, .customBtn-ldap:hover, .customBtn-openid_connect:hover {
+  cursor: pointer;
+  color: #ffffff;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}
+
+.customBtn .customBtn-icon, .customBtn-google .customBtn-icon, .customBtn-twitter .customBtn-icon, .customBtn-office365 .customBtn-icon, .customBtn-microsoft_windows .customBtn-icon, .customBtn-ldap .customBtn-icon, .customBtn-openid_connect .customBtn-icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 13px 15px 13px 15px;
+  float: left;
+  background: #ffffff;
+}
+
+.customBtn .customBtn-text, .customBtn-google .customBtn-text, .customBtn-twitter .customBtn-text, .customBtn-office365 .customBtn-text, .customBtn-microsoft_windows .customBtn-text, .customBtn-ldap .customBtn-text, .customBtn-openid_connect .customBtn-text {
+  font-size: 19px;
+  line-height: 48px;
+  font-weight: 600;
+  letter-spacing: .21px;
+  padding: 0 25px;
+}
+
+.customBtn .customBtn-image, .customBtn-google .customBtn-image, .customBtn-twitter .customBtn-image, .customBtn-office365 .customBtn-image, .customBtn-microsoft_windows .customBtn-image, .customBtn-ldap .customBtn-image, .customBtn-openid_connect .customBtn-image {
+  background: #ffffff;
+  background-size: 18px 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.customBtn-google {
+  background: #4688f1;
+}
+
+.customBtn-google .customBtn-image {
+  background: #ffffff image-url("google-logo.png") no-repeat left top;
+  background-size: 18px 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.customBtn-twitter {
+  background: #1da1f2;
+}
+
+.customBtn-twitter .customBtn-image {
+  background: #ffffff image-url("twitter-logo.png") no-repeat left top;
+  background-size: 18px 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.customBtn-office365 {
+  background: #f65314;
+}
+
+.customBtn-office365 .customBtn-image {
+  background: #ffffff image-url("office365-logo.jpeg") no-repeat left top;
+  background-size: 18px 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.customBtn-microsoft_windows {
+  background: #00a1f1;
+}
+
+.customBtn-microsoft_windows .customBtn-image {
+  background: #ffffff image-url("windows-logo.png") no-repeat left top;
+  background-size: 18px 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.customBtn-ldap {
+  background: #d61515;
+}
+
+.customBtn-ldap .customBtn-image {
+  background: #ffffff image-url("ldap-logo.png") no-repeat left top;
+  background-size: 18px 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.customBtn-openid_connect {
+  background: #ef8e1f;
+}
+
+.customBtn-openid_connect .customBtn-image {
+  background: #ffffff image-url("openid-logo.png") no-repeat left top;
+  background-size: 18px 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.signin-button {
+  font-size: 16px;
+}
+
+.table-responsive tbody td:first-child > *:first-child {
+  max-height: 3em;
+  overflow: hidden;
+  max-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

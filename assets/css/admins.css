@@ -1,0 +1,86 @@
+#users-table .user-role {
+  color: white !important;
+}
+
+#users-table .user-email {
+  max-width: 250px;
+}
+
+#clear-search {
+  z-index: 9;
+  position: absolute;
+  right: 55px;
+  top: 8px;
+}
+
+#clear-search:hover {
+  cursor: pointer;
+}
+
+.tag i {
+  color: white !important;
+}
+
+#branding-image {
+  z-index: auto;
+}
+
+.authentication-required {
+  padding-top: 2px;
+}
+
+#site_settings .colorinput-color {
+  text-align: center;
+  padding-top: 4px;
+  height: 2rem;
+  width: 2rem;
+}
+
+.sort-disabled {
+  background: #e6e6e6 !important;
+  color: #6e7687 !important;
+  opacity: 0.75;
+}
+
+.sort-disabled:hover {
+  opacity: 0.9;
+}
+
+.form-disable {
+  background-color: #e6e6e6;
+}
+
+.role-colour-picker {
+  color: white !important;
+}
+
+.custom-role-tag {
+  color: white !important;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.user-role-tag {
+  color: white !important;
+}
+
+#manage-users-nav.nav-tabs .nav-item {
+  margin-bottom: -1px;
+}
+
+#merge-account-arrow {
+  position: absolute;
+  top: 47%;
+  right: 47%;
+  z-index: 999;
+  background: white;
+}
+
+.admin-tabs {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#rooms-table-div {
+  overflow: visible;
+}
